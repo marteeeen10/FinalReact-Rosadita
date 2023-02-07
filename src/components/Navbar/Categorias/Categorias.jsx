@@ -7,8 +7,8 @@ const Categorias = () => {
             <button className="btn btn-dark">Categorias</button> 
           </a>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" to={"/category/1"}>Armas Cortas</Link></li>
-            <li><Link className="dropdown-item" to={"/category/2"}>Municiones</Link></li>
+            <li><Link className="dropdown-item" to={"/category/corto"}>Armas Cortas</Link></li>
+            <li><Link className="dropdown-item" to={"/category/municion"}>Municiones</Link></li>
           </ul>
         </li>
     );

@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "idCategoria": 1,
+        "idCategoria": "corto",
         "nombre": "Bp9cc",
         "marca": "Bersa",
         "precio": 90000,
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "idCategoria": 1,
+        "idCategoria": "corto",
         "nombre": "Thunder22",
         "marca": "Bersa",
         "precio": 54000,
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "idCategoria": 1,
+        "idCategoria": "corto",
         "nombre": "Thunder380",
         "marca": "Bersa",
         "precio": 75000,
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "idCategoria": 1,
+        "idCategoria": "corto",
         "nombre": "Tpr9cPavon ",
         "marca": "Bersa",
         "precio": 160000,
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "idCategoria": 2,
+        "idCategoria": "municion",
         "nombre": "9mm 115gr FMJ",
         "marca": "Magtech",
         "precio": 15000,
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "idCategoria": 2,
+        "idCategoria": "municion",
         "nombre": "9mm 124gr FMJ",
         "marca": "Magtech",
         "precio": 17000,
@@ -55,7 +55,7 @@
     },
     {
         "id": 7,
-        "idCategoria": 2,
+        "idCategoria": "municion",
         "nombre": "22 Standard Velocity",
         "marca": "Magtech",
         "precio": 13000,
@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "idCategoria": 2,
+        "idCategoria": "municion",
         "nombre": "9mm Guardian",
         "marca": "Magtech ",
         "precio": 25000,
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "idCategoria": 1,
+        "idCategoria": "corto",
         "nombre": "Tpr9Pavon",
         "marca": "Bersa ",
         "precio": 180000,
