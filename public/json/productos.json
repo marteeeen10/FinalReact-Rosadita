@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Bp9cc",
+        "marca": "Bersa",
+        "precio": 90000,
+        "stock": 50,
+        "img": "Bp9cc.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "nombre": "Thunder22",
+        "marca": "Bersa",
+        "precio": 54000,
+        "stock": 70,
+        "img": "Thunder22.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": 1,
+        "nombre": "Thunder380",
+        "marca": "Bersa",
+        "precio": 75000,
+        "stock": 25,
+        "img": "Thunder380.jpg"
+    },
+    {
+        "id": 4,
+        "idCategoria": 1,
+        "nombre": "Tpr9cPavon ",
+        "marca": "Bersa",
+        "precio": 160000,
+        "stock": 80,
+        "img": "Tpr9cPav.jpg"
+    },
+    {
+        "id": 5,
+        "idCategoria": 2,
+        "nombre": "9mm 115gr FMJ",
+        "marca": "Magtech",
+        "precio": 15000,
+        "stock": 150,
+        "img": "Mag9mm115Fmj.jpg"
+    },
+    {
+        "id": 6,
+        "idCategoria": 2,
+        "nombre": "9mm 124gr FMJ",
+        "marca": "Magtech",
+        "precio": 17000,
+        "stock": 120,
+        "img": "Mag9mm124Fmj.jpg"
+    },
+    {
+        "id": 7,
+        "idCategoria": 2,
+        "nombre": "22 Standard Velocity",
+        "marca": "Magtech",
+        "precio": 13000,
+        "stock": 70,
+        "img": "Mag22StandardVel.jpg"
+    },
+    {
+        "id": 8,
+        "idCategoria": 2,
+        "nombre": "9mm Guardian",
+        "marca": "Magtech ",
+        "precio": 25000,
+        "stock": 60,
+        "img": "Mag99Guardian.jpg"
+    },
+    {
+        "id": 9,
+        "idCategoria": 1,
+        "nombre": "Tpr9Pavon",
+        "marca": "Bersa ",
+        "precio": 180000,
+        "stock": 120,
+        "img": "Tpr9Pav.jpg"
+    }
+]

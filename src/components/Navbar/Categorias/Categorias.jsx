@@ -6,9 +6,8 @@ const Categorias = () => {
             <button className="btn btn-dark">Categorias</button> 
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Pesos</a></li>
-            <li><a className="dropdown-item" href="#">Dolares</a></li>
-            <li><a className="dropdown-item" href="#">Euros</a></li>
+            <li><a className="dropdown-item" href="#">Cortas</a></li>
+            <li><a className="dropdown-item" href="#">Municiones</a></li>
           </ul>
         </li>
     );
