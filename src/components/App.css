@@ -1,4 +1,27 @@
-.divColor {
-    background-color: green;
+.cardProducto {
+    width: 18rem;
+    margin: 4px;
+    background-color: hsl(195, 21%, 93%);
 }
 
+.cardBody {
+    background-color: rgb(231, 223, 223);
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+img {
+    margin-top: 5px;
+}
+
+.cardProductos {
+    margin:10px;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.itemDetail {
+    max-width: 540px;
+    margin-top: 20px;
+}

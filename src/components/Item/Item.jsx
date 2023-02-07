@@ -1,11 +1,12 @@
 export const Item = ({item}) => {
     return (
-      <div className="card" style={{width: '18rem'}}>
-              <img src="..." className="card-img-top" alt="..." />
-                  <div className="card-body">
+      <div className="card mb-3 cardProducto border-black">
+              <img src={`../img/${item.img}`} className="card-img-top" alt={`Imagen de ${item.nombre}`} />
+              <div className="card-body cardBody">
       <h5 className="card-title">{item.nombre}</h5>
-      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" className="btn btn-primary">Go somewhere</a>
+      <p className="card-text">{item.marca}</p>
+      <p className="card-text">$ {new Intl.NumberFormat('de-DE').format(item.precio)}</p>
+      <button className="btn btn-dark">Ver Producto</button>
     </div>
   </div>
   
