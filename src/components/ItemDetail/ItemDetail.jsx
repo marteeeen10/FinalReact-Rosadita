@@ -1,5 +1,11 @@
 import {ItemCount} from '../ItemCount/ItemCount'
 export const ItemDetail = ({item}) => {
+
+ const onAdd = (cantidad) => { //agregar el prod al carrito
+console.log(cantidad)
+console.log(item)
+}
+  
   return (
     <div className='row g-0'>
         <div className="col-md-4">
@@ -11,7 +17,7 @@ export const ItemDetail = ({item}) => {
                 <p className='card-text'>Marca: {item.marca}</p>
                 <p className='card-text'>Precio: ${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
                 <p className='card-text'>Stock: {item.stock}</p>
-                <ItemCount valInicial={1} stock={item.stock}/>
+                <ItemCount valInicial={1} stock={item.stock} onAdd={onAdd}/>
                 <button className='btn btn-secondary'>Comprar</button>
             </div>
         </div>
