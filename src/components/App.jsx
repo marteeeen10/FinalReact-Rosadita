@@ -7,24 +7,26 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //Toast
 import { ToastContainer } from 'react-toastify';
 
-import { cargarBDD } from '../firebase/firebase';
-
 import Navbar from "./Navbar/Navbar";
 // import { ItemCount } from "./ItemCount/ItemCount";
 import { ItemListContainer } from "./ItemListContainer/ItemListContainer";
 import { ItemDetailContainer } from './ItemDetailContainer/ItemDetailContainer';
 import { Contacto } from './Contacto/Contacto';
 import { Cart } from './Cart/Cart';
+import { Checkout } from './Checkout/Checkout';
 
 //Context
 import { DarkModeProvider } from '../context/DarkModeContext';
+import { CarritoProvider } from '../context/CarritoContext';
 
 const App = () => {
   
-//cargarBDD()
+//getProducto()
+
   return (
     <>
     <BrowserRouter>
+    <CarritoProvider>
       <DarkModeProvider>
         <Navbar/>
           <Routes>
@@ -33,9 +35,11 @@ const App = () => {
             <Route path='/category/:idCategoria' element={<ItemListContainer/>}/>
             <Route path='/contacto' element={<Contacto/>}/> 
             <Route path='/cart' element={<Cart/>}/>
+            <Route path='/checkout' element={<Checkout/>}/>
           </Routes> 
       <ToastContainer/>
       </DarkModeProvider>
+      </CarritoProvider>
     </BrowserRouter>
 
     </>
