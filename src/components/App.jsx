@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //Toast
 import { ToastContainer } from 'react-toastify';
 
+import { cargarBDD } from '../firebase/firebase';
+
 import Navbar from "./Navbar/Navbar";
 // import { ItemCount } from "./ItemCount/ItemCount";
 import { ItemListContainer } from "./ItemListContainer/ItemListContainer";
@@ -19,6 +21,7 @@ import { DarkModeProvider } from '../context/DarkModeContext';
 
 const App = () => {
   
+//cargarBDD()
   return (
     <>
     <BrowserRouter>

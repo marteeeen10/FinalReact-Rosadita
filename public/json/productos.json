@@ -6,7 +6,7 @@
         "marca": "Bersa",
         "precio": 90000,
         "stock": 50,
-        "img": "Bp9cc.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Bp9cc.jpg?alt=media&token=1accda3a-fa25-4f1c-b400-7a7c31370411"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "marca": "Bersa",
         "precio": 54000,
         "stock": 70,
-        "img": "Thunder22.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Thunder22.jpg?alt=media&token=e0c467ee-940d-4c12-b270-67fdb86aecc0"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "marca": "Bersa",
         "precio": 75000,
         "stock": 25,
-        "img": "Thunder380.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Thunder380.jpg?alt=media&token=b4173e3b-7e12-483d-9fe3-5374a707f1fd"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "marca": "Bersa",
         "precio": 160000,
         "stock": 80,
-        "img": "Tpr9cPav.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Tpr9Pav.jpg?alt=media&token=78d52cc5-8f86-42e5-a8e7-49676ff8bb4c"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "marca": "Magtech",
         "precio": 15000,
         "stock": 150,
-        "img": "Mag9mm115Fmj.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Mag9mm115Fmj.jpg?alt=media&token=a71ce752-b83a-485a-973c-c21c5925b24f"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "marca": "Magtech",
         "precio": 17000,
         "stock": 120,
-        "img": "Mag9mm124Fmj.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Mag9mm124Fmj.jpg?alt=media&token=daef4aaf-bb39-416b-a4e0-c52e5903d982"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "marca": "Magtech",
         "precio": 13000,
         "stock": 70,
-        "img": "Mag22StandardVel.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Mag22StandardVel.jpg?alt=media&token=8d6853c3-951d-478b-a2bf-58bbc3b020ad"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "marca": "Magtech ",
         "precio": 25000,
         "stock": 60,
-        "img": "Mag99Guardian.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Mag99Guardian.jpg?alt=media&token=4cb620bf-18aa-487e-8b54-8f5094032583"
     },
     {
         "id": 9,
@@ -78,6 +78,6 @@
         "marca": "Bersa ",
         "precio": 180000,
         "stock": 120,
-        "img": "Tpr9Pav.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Tpr9cPav.jpg?alt=media&token=a2306dd4-7b3c-4632-aac5-7af2ba158a59"
     }
 ]

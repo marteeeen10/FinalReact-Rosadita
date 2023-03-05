@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 import { ItemList } from "../ItemList/ItemList"
 export const Cart = () => {
     const carrito = [
-        {id: 1, nombre: "Arroz", modelo: "1", img: 'bp9cc.jpg', precio: 400, cantidad: 6 },
-        {id: 2,nombre: "Fideos", modelo: "2", img: 'bp9cc.jpg',precio: 300, cantidad: 2 },
-        {id: 3,nombre: "Manteca", modelo: "3",img: 'bp9cc.jpg',precio: 500, cantidad: 3 },
+        {id: 1, nombre: "Arroz", modelo: "1", img: 'https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Bp9cc.jpg?alt=media&token=1accda3a-fa25-4f1c-b400-7a7c31370411', precio: 400, cantidad: 6 },
+        {id: 2,nombre: "Fideos", modelo: "2", img: 'https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Bp9cc.jpg?alt=media&token=1accda3a-fa25-4f1c-b400-7a7c31370411',precio: 300, cantidad: 2 },
+        {id: 3,nombre: "Manteca", modelo: "3",img: 'https://firebasestorage.googleapis.com/v0/b/rosadita-80ea1.appspot.com/o/Bp9cc.jpg?alt=media&token=1accda3a-fa25-4f1c-b400-7a7c31370411',precio: 500, cantidad: 3 },
     ]
     return(
         <>
