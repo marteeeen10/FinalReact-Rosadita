@@ -1,6 +1,8 @@
 import CartWidget from "../CartWidget/CartWidget";
 import Categorias from "./Categorias/Categorias";
 import Secciones from "./Secciones/Secciones";
+import { BotonDarkMode } from "./BotonDarkMode/BotonDarkMode";
+
 const Navbar = () => {
     return (
 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -15,6 +17,7 @@ const Navbar = () => {
 
       </ul>
     <CartWidget cantCarrito={22}/>
+    <BotonDarkMode/>
     </div>
 
   </div>
